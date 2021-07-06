@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header
+{
+    height: 90px;
+    width: 100%;
+    background-color:#ff9800;
+    display: flex;
+    justify-content: center
+    
+    
+    
+}
+
+.container
+{
+    
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    
+}
+.header_container
+{
+    justify-content: space-between;
+}
+
+.logo
+{
+    height: 90px;
+    width: 20%;
+    /* background-color:yellow; */
+    font-size: 30px;
+    font-family: sego UI;
+    text-align: center;
+     font-weight: bold;
+     color: white;
+     line-height: 90px;
+}
+
+.nav
+{
+    height: 90px;
+    width: 30%;
+    /* background-color:green; */
+    display: flex;
+}
+
+.nav_items
+{
+    height: 90px;
+    width: 20%;
+    /* background-color: grey; */
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    cursor: pointer;
+   
+.nav_items:hover
+{
+    background-color: white;
+    color:#ff9800;
+    
+}
+
+.banner
+{
+    height: 700px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(D:\Raqtech\images\banner.jpeg);
